@@ -1,0 +1,18 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    box-sizing: border-box;
+  }
+
+.carousel-pictures {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.carousel-pictures .partner {
+  width: 300px;
+}  
