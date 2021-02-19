@@ -1,0 +1,181 @@
+* {
+  padding:0;
+  margin:0;
+  vertical-align:baseline;
+  list-style:none;
+  border:0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  color: #424242;
+  font: 16px lato,arial,sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+}
+
+header nav.header-top {
+  width: 100%;
+  height: 100px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 20px;
+}
+
+header nav.header-top ul li a {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  color: #3cace0;
+  border-bottom: 0px solid transparent;
+  transition: border-bottom .5s;
+}
+
+header nav.header-top ul li a:hover{
+  border-bottom: 1px solid #3cace0;
+}
+
+header .background-top {
+    width: 100%;
+    height: calc(100% - 100px);
+
+    background: url(../img/background-top.jpg) no-repeat;
+    background-size: cover;
+}
+
+header .background-top .name-center {
+  height: 100%;
+
+  color: #fff;
+  text-transform: uppercase;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header .background-top .name-center h1 {
+  margin-bottom: 20px;
+}
+
+header nav.header-top .logo img {
+  width: 200px;
+}
+
+header nav.header-top ul {
+  display: flex;
+}
+
+header nav.header-top ul li {
+  margin: 0 15px 0 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section .container {
+  margin: 50px 20px;
+}
+
+section .container h2 {
+  text-transform: uppercase;
+  font-size: 26px;
+}
+
+section .container p {
+  font-size: 18px;
+  text-align: center;
+}
+
+#servicos .container {
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#servicos .container h2 {
+  margin-bottom: 25px;
+}
+
+#quem-somos {
+  position: relative;
+}
+
+#quem-somos .table {
+  background-image: url(../img/feature-image1.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  background-position: 50% 20%;
+}
+
+#quem-somos .container {
+  margin: 0;
+  background-color: #f2f2f1;
+}
+
+#quem-somos .container .text {
+  width: 50%;
+  margin-left: 50%;
+  padding: 60px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#quem-somos .container .text h2 {
+  font-size: 20px;
+  color: #505656;
+  margin-bottom: 40px;
+}
+
+#quem-somos .container .text p {
+  font-size: 16px;
+  margin: 0 30px;
+  color: #505656;
+}
+
+#parceiros .container {
+  text-align: center;
+}
+
+#parceiros .container h2,
+#parceiros .container p {
+  margin-bottom: 20px;
+}
+
+.pictures {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pictures .partner {
+  width: 32%;
+}
+
+.pictures img {
+  width: 100%;
+}
+
+.pictures .description {
+  font-size: 14px;
+  margin: 10px;
+}
